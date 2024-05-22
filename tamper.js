@@ -165,7 +165,7 @@ function getRandomBoolean() {
 
         window.scrollTo(0, document.body.scrollHeight);
 
-        await delayseconds(5)
+        await delayseconds(5,10)
 
 
         if (document.getElementsByClassName("recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox recaptcha-checkbox-checked"))
@@ -210,7 +210,7 @@ function getRandomBoolean() {
 
 
     } else if (href == "https://thi555namthanhchuong.nghean.gov.vn/sendExam") {
-        await delayseconds(1, 3)
+        await delayseconds(5, 20)
         document.querySelector("body > div.container-fluid > div.result > div:nth-child(3) > button").click()
 
         // let dict_q=match_qa({})
