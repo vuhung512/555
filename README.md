@@ -7,3 +7,5 @@ I, EXTENSION CHROME :
 in [Section 'Features'](#ssFeatures) 
 
 ## Features <a id='ssFeatures'></a>
+
+[TAMPERMONKEY](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
