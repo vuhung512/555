@@ -8,8 +8,8 @@
 // @match        https://thi555namthanhchuong.nghean.gov.vn/sendExam
 
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.vn
-// @downloadURL https://github.com/vuhung512/lokbot/raw/main/easybot.user.js
-// @updateURL    https://github.com/vuhung512/lokbot/raw/main/easybot.user.js
+// @downloadURL  https://raw.githubusercontent.com/vuhung512/555/main/tamper.js
+// @updateURL    https://raw.githubusercontent.com/vuhung512/555/main/tamper.js
 // @grant        none
 // ==/UserScript==
 
