@@ -1,5 +1,5 @@
 """# 555
-sync - dict json  server websocket https://www.facebook.com/hungvt512/
+sync - dict json  server websocket 
 """
 SETUP :
 
@@ -15,3 +15,4 @@ Extension chrome
 [ Buster captcha](https://chromewebstore.google.com/detail/buster-captcha-solver-for/mpbjkejclgfgadiemmefgebjfooflfhl)
 
 [Script auto](https://raw.githubusercontent.com/vuhung512/555/main/tamper.js)
+[![contact](https://www.google.com/s2/favicons?sz=64&domain=facebook.com)](https://www.facebook.com/hungvt512/)
