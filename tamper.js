@@ -15,6 +15,11 @@
 
 (async function() {
     'use strict';
+const so_cau_sai_max=3
+let rd_num =Math.floor(Math.random() * so_cau_sai_max+1);
+function getRandomBoolean() {
+    return Math.random() >= 0.5;
+}
     async function delayseconds(seconds, toseconds = null) {
         if (toseconds) {
             seconds = Math.floor(Math.random() * (toseconds - seconds + 1)) + seconds;
@@ -108,8 +113,9 @@
     async function choose_a(dict_q, PredictionNumber) {
         const elements = document.getElementsByClassName("title-lbl-question");
         const trimmedArray = Array.from(elements).slice(0, 20);
-
+        let dem_causai=0
         for (let e of trimmedArray) {
+
             let answer_elements = e.parentElement.querySelectorAll("div.content-question.font-italic");
             let question = e.innerText.trim();
             question = question.replace(/^Câu \d+: /, '').trim().replace(/^Câu hỏi \d+: /, '').trim();
@@ -127,11 +133,23 @@
                     is_true: false
                 };
 
+             
+
             }
 
             answer_elements[index_answer].parentElement.querySelector("label>span").click();
+            if (getRandomBoolean()) {
+                if (dem_causai<rd_num){
+                    dem_causai+=1
+                    answer_elements[1].parentElement.querySelector("label>span").click(); // AUTO CHON B
+                }
+                
+
+              } 
+
             document.querySelector("#TestForm > div.area-btn-next > a > button").click();
             await delayseconds(.3, .9)
+            
 
 
 
