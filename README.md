@@ -10,7 +10,7 @@ Extension chrome
 
 [TAMPERMONKEY](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-[I'm not robot captcha clicker](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+[I'm not robot captcha clicker](https://chromewebstore.google.com/detail/im-not-robot-captcha-clic/ceipnlhmjohemhfpbjdgeigkababhmjc)
 
 [ Buster captcha](https://chromewebstore.google.com/detail/buster-captcha-solver-for/mpbjkejclgfgadiemmefgebjfooflfhl)
 
