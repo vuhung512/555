@@ -2,14 +2,13 @@
 // @name         555
 // @namespace    http://tampermonkey.net/
 // @version      2024-05-22
-// @description  try to take over the world!
-// @author       Hungzu98
+// @description  des
+// @author       Hungzu98//
 // @match        https://thi555namthanhchuong.nghean.gov.vn/startExam
 // @match        https://thi555namthanhchuong.nghean.gov.vn/sendExam
-
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.vn
 // @downloadURL  https://raw.githubusercontent.com/vuhung512/555/main/tamper.js
 // @updateURL    https://raw.githubusercontent.com/vuhung512/555/main/tamper.js
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=gov.vn
 // @grant        none
 // ==/UserScript==
 
@@ -133,7 +132,7 @@ function getRandomBoolean() {
                     is_true: false
                 };
 
-             
+
 
             }
 
@@ -143,13 +142,13 @@ function getRandomBoolean() {
                     dem_causai+=1
                     answer_elements[1].parentElement.querySelector("label>span").click(); // AUTO CHON B
                 }
-                
 
-              } 
+
+              }
 
             document.querySelector("#TestForm > div.area-btn-next > a > button").click();
-            await delayseconds(.3, .9)
-            
+            await delayseconds(.3, 1)
+
 
 
 
@@ -165,13 +164,12 @@ function getRandomBoolean() {
 
         window.scrollTo(0, document.body.scrollHeight);
 
-        await delayseconds(5,10)
+   
 
-
-        if (document.getElementsByClassName("recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox recaptcha-checkbox-checked"))
-            await delayseconds(1, 3)
 
         document.querySelector("#btnSendExam").click()
+
+
         return dict_q
 
     }
@@ -210,12 +208,14 @@ function getRandomBoolean() {
 
 
     } else if (href == "https://thi555namthanhchuong.nghean.gov.vn/sendExam") {
-        await delayseconds(5, 20)
+        await delayseconds(1, 3)
         document.querySelector("body > div.container-fluid > div.result > div:nth-child(3) > button").click()
 
         // let dict_q=match_qa({})
         // console.log(dict_q)
         // sendMessageWS({write:dict_q})
+        await delayseconds(40)
+        window.location.href =link_start
 
     }
 
