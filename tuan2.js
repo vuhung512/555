@@ -14,7 +14,7 @@
 (async function() {
     
     'use strict';
-const time_delay=[5,10];
+const time_delay=[25,30];
 
 const so_cau_sai_max=3
 let  url_sv ="https://torpid-jealous-tartan.glitch.me/"
